@@ -1,0 +1,14 @@
+{
+    "model": "RandomForestRegressor",
+    "features": [
+        "Voltage [V]",
+        "Current [A]",
+        "TempBottom [C]",
+        "CRate [-]"
+    ],
+    "target": "SOC [%]",
+    "evaluation": "Unseen battery cycles",
+    "MAE_percentage_points": 0.10564532378030876,
+    "RMSE_percentage_points": 0.16828275961682007,
+    "R2": 0.9999616320136655
+}

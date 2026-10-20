@@ -1,0 +1,17 @@
+
+# Large trained models - keep out of the public repository
+03_Machine_Learning/*.pkl
+
+# Battery datasets and generated predictions
+02_Battery_Dataset/
+03_Machine_Learning/*predictions.csv
+
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local secrets
+.env
+.streamlit/secrets.toml

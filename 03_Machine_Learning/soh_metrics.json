@@ -1,0 +1,21 @@
+{
+    "model": "RandomForestRegressor",
+    "target": "Relative_SoH_Percent",
+    "target_definition": "Discharge capacity divided by each battery's maximum observed discharge capacity, multiplied by 100",
+    "train_records": 2141,
+    "test_records": 721,
+    "train_batteries": 25,
+    "test_batteries": 9,
+    "shared_batteries": 0,
+    "MAE_percentage_points": 7.037675707758563,
+    "RMSE_percentage_points": 12.719982706774195,
+    "R2": 0.8158194766976103,
+    "median_absolute_error_percentage_points": 3.55940268686804,
+    "maximum_absolute_error_percentage_points": 77.0817706382235,
+    "limitations": [
+        "Relative capacity retention is a proxy, not manufacturer-rated SoH",
+        "Performance varies significantly across held-out batteries",
+        "Some predictions have very large errors",
+        "Uses completed-discharge features, so it is not an early-warning model"
+    ]
+}

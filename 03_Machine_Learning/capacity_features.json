@@ -1,0 +1,9 @@
+[
+    "Cycle_Number",
+    "Mean_Voltage_V",
+    "Min_Voltage_V",
+    "Mean_Current_A",
+    "Mean_Temperature_C",
+    "Max_Temperature_C",
+    "Discharge_Duration_s"
+]

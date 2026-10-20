@@ -1,0 +1,19 @@
+{
+    "model": "RandomForestRegressor",
+    "purpose": "Offline discharge-capacity estimation",
+    "test_split": "Group split by battery",
+    "train_records": 2141,
+    "test_records": 721,
+    "train_batteries": 25,
+    "test_batteries": 9,
+    "MAE_Ah": 0.1103459849301259,
+    "RMSE_Ah": 0.2312206440196455,
+    "R2": 0.8046310589343446,
+    "MAE_below_0_5_Ah": 0.3800253689313321,
+    "MAE_at_least_1_0_Ah": 0.058811092116068664,
+    "limitations": [
+        "Uses completed discharge duration; not an early-warning model",
+        "Errors are substantially higher for low-capacity records",
+        "Relative battery health must be evaluated separately"
+    ]
+}
